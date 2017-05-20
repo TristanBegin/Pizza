@@ -1,0 +1,36 @@
+﻿Log file open, 05/20/17 12:40:56
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-801711743) SRandInit(-801711743).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.060208
+LogInit:Warning: Incompatible or missing module: UE4Editor-MyProject.dll
+Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject Development Win64 -project="C:/Users/t.begin/Documents/Unreal Projects/MyProject/MyProject.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+ERROR: System.UnauthorizedAccessException: Access to the path 'C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\LastBuiltTargets.txt' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at UnrealBuildTool.UnrealBuildTool.RunUBT(String[] Arguments, FileReference ProjectFile)
+LogInit:Warning: Still incompatible or missing module: UE4Editor-MyProject.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (32)
+LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+LogModuleManager: Shutting down and abandoning module Landscape (24)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+LogModuleManager: Shutting down and abandoning module Renderer (14)
+LogModuleManager: Shutting down and abandoning module Engine (12)
+LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 05/20/17 12:41:06
